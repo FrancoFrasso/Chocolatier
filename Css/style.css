@@ -1,0 +1,739 @@
+*/* Estilos Globales */
+/* Centra el contenido del texto y usa la fuente 'Lato' o una fuente genérica sans-serif */
+* {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    list-style: none; /* Elimina los marcadores de lista por defecto */
+    
+
+}
+body{
+    background-image: url(/Img/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+
+    background-size: cover;
+
+}
+
+/* Quitar subrayado y cambiar colores de enlaces */
+a {
+    text-decoration: none; /* Quitar subrayado */
+    color: black; /* Cambiar color normal de enlaces */
+}
+
+a:visited {
+    color: none; /* Cambiar color de enlaces visitados */
+}
+
+a:active {
+    color: #97346e; /* Cambiar color de enlaces activos (cuando se hace clic) */
+}
+
+/* Estilo para el Título Principal */
+.tituloprincipal {
+    -webkit-text-stroke: 0.1px black;
+    font-size: x-large;
+    margin-top: 50px;
+    font-weight: bolder;
+   
+    background-size: 100% 100%; /* Ajusta la imagen de fondo al tamaño de la ventana del navegador */
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+
+}
+
+.tituloprincipal img{
+    height: 800px;
+    size-adjust: 600px;
+}
+
+/* Estilo para la Barra de Navegación */
+
+
+.container-fluid{
+    
+    background-color: #f6c8c7; /* Color de fondo */
+    color: black; /* Color del texto */
+  
+    box-shadow: 3px 3px 10px #f6c8c7; /* Sombra */
+    text-align: center;
+}
+
+
+
+.navbar{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-right: 0px; /* Ajusta el espacio entre cada enlace si es necesario */
+}
+/* Estilo para Imágenes */
+
+
+
+
+
+
+/* ------------------------------------------- */
+
+
+/* Estilo para los Productos */
+.Productos {
+    color: white; /* Color del texto */
+    font-size: large; /* Tamaño de fuente grande */
+    background-color: #f6c8c7; /* Color de fondo */
+    border-radius: 0.5%; /* Bordes redondeados */
+    box-shadow: 3px 3px 10px #ccc; /* Sombra */
+    font-weight: bold; /* Texto en negrita */
+    position: relative;
+    
+
+}
+
+/* Estilo para Encabezados en Productos */
+.Productos h3 {
+    display: block; /* Muestra los encabezados como bloques */
+    text-align: center; /* Centra el texto */
+    color: white; /* Color del texto */
+}
+
+/* Estilo para Imágenes en Productos */
+.Productos img {
+    border: solid 1px black; /* Borde negro de 1px alrededor de las imágenes */
+   
+}
+
+/* Efecto Hover en Imágenes de Productos */
+.Productos img:hover {
+    transition: 1.5s; /* Animación de transición durante 1.5 segundos */
+    transform: scale(1.15); /* Escala las imágenes al 115% en el efecto hover */
+}
+.Productos div {
+    
+    align-items: center;
+}
+
+/* ------------------------------------------- */
+
+/* Estilo para los Productos */
+.Productos {
+    color: white; /* Color del texto */
+    font-size: large; /* Tamaño de fuente grande */
+    background-color: #f6c8c7; /* Color de fondo */
+    border-radius: 0.5%; /* Bordes redondeados */
+    box-shadow: 3px 3px 10px #ccc; /* Sombra */
+    font-weight: bold; /* Texto en negrita */
+    position: relative;
+    
+
+}
+
+/* Estilo para Encabezados en Productos */
+.Productos h3 {
+    display: block; /* Muestra los encabezados como bloques */
+    text-align: center; /* Centra el texto */
+    color: white; /* Color del texto */
+}
+
+/* Estilo para Imágenes en Productos */
+.Productos img {
+    border: solid 1px black; /* Borde negro de 1px alrededor de las imágenes */
+   
+}
+
+/* Efecto Hover en Imágenes de Productos */
+.Productos img:hover {
+    transition: 1.5s; /* Animación de transición durante 1.5 segundos */
+    transform: scale(1.15); /* Escala las imágenes al 115% en el efecto hover */
+}
+.Productos div {
+    
+    align-items: center;
+}
+
+/* ------------------------------------------- */
+
+
+
+
+
+
+
+
+/* Estilo para la sección de Pedidos */
+.pedidos {
+    margin-top: 20px; /* Margen superior de 20px */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    font-size: larger; /* Tamaño de fuente más grande */
+}
+
+/* Estilo para el ícono de WhatsApp */
+.whatsapp {
+    width: 25px; /* Ancho de 25px */
+    height: 25px; /* Altura de 25px */
+}
+
+.navbar-toggler button{
+    color: red !important;
+}
+.prod1{
+    background-color: #fdf1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+}
+
+.prod2{
+    background-color: #fdf1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+}
+.prod3{
+    background-color: #fdf1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+}
+.prod4{
+    background-color: #fdf1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+}
+.prod5{
+    background-color: #fdf1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre celdas */
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+   
+    max-height: 400px;
+
+    background-color: #fa908f;
+
+}
+
+.footer1{
+    display: flex;
+    padding: 0;
+    margin-top: 20%;
+}
+
+.footer3{
+    display: flex;
+    align-items: flex-end; /* Alineación en la parte inferior */
+    justify-content: flex-end; /* Alineación a la derecha */
+    
+}
+.footer3 img {
+    
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* BOTONERA FIJA */
+/* Estilos para la botonera fija */
+.botonera {
+    z-index: 11; /* Capa de profundidad z-index */
+    position: fixed; /* Posición fija en la ventana */
+    bottom: 20px; /* Distancia desde abajo de 20px */
+    right: 20px; /* Distancia desde la derecha de 20px */
+}
+
+/* Estilos para los íconos de redes sociales en la botonera */
+.botonera .redes img {
+    width: 25px; /* Ancho de 25px */
+    height: 25px; /* Altura de 25px */
+}
+
+/* Estilos para los íconos de "más" en la botonera */
+.botonera .btn-mas img {
+    width: 25px; /* Ancho de 25px */
+    height: 25px; /* Altura de 25px */
+}
+
+/* Estilos para el botón de mostrar más en la botonera */
+#btn-mas {
+    display: none; /* Ocultar el botón por defecto */
+}
+
+/* Estilos generales de la botonera */
+.botonera {
+    /* Posicionamiento y estilo */
+    position: fixed; /* Posición fija en la ventana */
+    bottom: 20px; /* Distancia desde abajo de 20px */
+    right: 20px; /* Distancia desde la derecha de 20px */
+
+    /* Estilos de los enlaces y botones en la botonera */
+    .redes a,
+    .btn-mas2 {
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        background-color: #fdf1f1;
+        border: solid 1px #f6c8c7;
+        color: #fff;
+        width: 40px; /* Ancho de 40px */
+        height: 40px; /* Altura de 40px */
+        line-height: 55px; /* Alineación vertical */
+        text-align: center;
+        border-radius: 50%; /* Bordes redondeados */
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); /* Sombra */
+        transition: all 500ms ease; /* Transición suave */
+    }
+
+    /* Estilos para el comportamiento al pasar el mouse */
+    .redes a:hover {
+        background: white; /* Cambia el fondo al pasar el mouse */
+    }
+
+    .btn-mas2:hover {
+        background: white; /* Cambia el fondo al pasar el mouse */
+    }
+
+    /* Ajustes para la animación de aparición */
+    .redes a {
+        margin-bottom: -15px; /* Ajusta el espacio negativo para animación */
+        opacity: 0; /* Opacidad inicial */
+        visibility: hidden; /* No visible inicialmente */
+    }
+
+    /* Aparición de enlaces al seleccionar el botón "más" */
+    #btn-mas:checked~.redes a {
+        margin-bottom: 10px; /* Ajuste para la animación */
+        opacity: 1; /* Opacidad total */
+        visibility: visible; /* Visible */
+    }
+
+    /* Cambio de estilo para el botón "más" seleccionado */
+    #btn-mas:checked~.btn-mas .btn-mas2 {
+        background-color: #f6c8c7; /* Cambio de color */
+    }
+}
+
+/* Estilos para el botón de scroll hacia arriba */
+.botonscroll img {
+    /* Posicionamiento y estilo */
+    position: fixed; /* Posición fija en la ventana */
+    bottom: 20px; /* Distancia desde abajo de 20px */
+    left: 20px; /* Distancia desde la izquierda de 20px */
+
+    /* Estilos del botón */
+    text-decoration: none;
+    background-color: #fdf1f1;
+    border: solid 1px #f6c8c7;
+    color: #fff;
+    width: 40px; /* Ancho de 40px */
+    height: 40px; /* Altura de 40px */
+    line-height: 55px; /* Alineación vertical */
+    text-align: center;
+    border-radius: 50%; /* Bordes redondeados */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); /* Sombra */
+    transition: all 500ms ease; /* Transición suave */
+    z-index: 9; /* Capa de profundidad z-index */
+}
+
+/* Estilos para el formulario de contacto */
+.form{
+    align-items: center;
+    justify-content: center;
+}
+.FORMULARIO01 {
+    /* Espaciado y alineación */
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  
+
+    /* Estilos generales */
+    max-width: 800px;
+    color: white; /* Color del texto */
+
+    /* Fondo y sombra */
+    background-color: #f6c8c7;
+    background-clip: border-box;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+/* Estilos para el campo de mensaje en el formulario */
+#mensaje {
+    height: 50px; /* Altura de 50px */
+    width: 100%; /* Ancho del 100% */
+    resize: none; /* Deshabilita el redimensionamiento */
+    text-align: center;
+}
+
+/* Estilos para el campo de búsqueda */
+.busqueda {
+    border: 1px solid white; /* Borde de 1px blanco */
+    color: white; /* Color del texto */
+    margin-left: 3px; /* Margen izquierdo de 3px */
+    margin-top: 2px; /* Margen superior de 2px */
+}
+
+/* Estilos para el diseño de columnas */
+.row {
+    max-width: 800px; /* Ancho máximo de 800px */
+    text-align: center; /* Alineación de texto al centro */
+    margin: auto; /* Margen automático para centrar */
+}
+
+/* Estilos para las columnas */
+.col {
+    max-width: 800px; /* Ancho máximo de 800px */
+    text-align: center; /* Alineación de texto al centro */
+    margin: auto; /* Margen automático para centrar */
+}
+
+/* Estilos para los controles */
+.controls {
+    border: 1px solid white; /* Borde de 1px blanco */
+    width: 100%; /* Ancho del 100% */
+    border-radius: 0.5%; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno de 10px */
+    margin: 3px; /* Margen de 3px */
+    background-color: #fdf1f1; /* Color de fondo */
+    color: black; /* Color del texto */
+    border: 1px solid rgb(163, 155, 155); /* Borde de 1px */
+    font-size: 15px; /* Tamaño de fuente de 15px */
+}
+
+
+/* Estilos para la información */
+.info {
+    width: 50%; /* Ancho del 50% */
+    margin: auto; /* Margen automático para centrar */
+}
+
+#carouselExample {
+    max-width: 60%;
+    margin: auto; /* Centra el carrusel en la página */
+}
+.carousel-inner{
+    padding: 10px;
+}
+.carousel-inner img {
+    height: 600px; /* Ajusta la altura de las imágenes según tus necesidades */
+    width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho del contenedor */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta las imágenes según sea necesario */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.carousel img:hover {
+    opacity: 0.7; /* Cambia la opacidad al hacer hover */
+    filter: brightness(0.7);
+    transition: 0.5s;
+}
+
+
+.texto-superpuestoprincipal h1{
+
+    color: transparent;
+   
+    transform: translate(0%, -500%);
+    transition: 1s;
+    
+}
+
+.texto-superpuestoprincipal h1 .edited0{
+    top: 30%;
+    left: 15%;
+    transform: translate(0%, -500%);
+
+    color: transparent; /* Color del texto inicial */
+    font-size: 24px; /* Tamaño del texto */
+    font-family: 'DM Serif Display', serif;
+}
+
+.carousel:hover .texto-superpuestoprincipal h1 {
+   color: black;
+   /* font-family: 'Allura', cursive; */
+   /* font-family: 'Inspiration', cursive; */
+  
+
+      /* -webkit-text-stroke: 0.5px rgb(221, 175, 160); */
+transition: 0.5s;
+font-size: 4em
+}
+
+.carousel:hover .texto-superpuestoprincipal h1 .edited0{
+    color: white;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+   
+    transform: translate(65%,15%);
+    transition: 1s;
+    opacity: 1;
+    /* -webkit-text-stroke: 0.5px #fdf1f1; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------- */
+
+
+#carouselExample2 {
+    background-image: url(/Img/Fondo\ Rosa1.jpg);
+    justify-content: center;
+    overflow: hidden;
+    height: 550px;
+    padding: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+#carousel21 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin: auto;
+    gap: 1px;
+
+    /* Ajusta la altura según tus necesidades */
+}
+
+#carousel21 img {
+    height: 400px;
+    object-fit: cover;
+    width: 70%;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+
+    /* Ajusta la imagen para cubrir completamente el contenedor */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Ajusta el ancho de los botones de control según tus necesidades */
+}
+
+.texto-superpuesto .textosup1,
+.texto-superpuesto2 .textosup2,
+.texto-superpuesto3 .textosup3{
+    color: transparent ;
+    
+}
+
+
+#carousel21 .texto-superpuesto:hover .textosup1,
+#carousel21 .texto-superpuesto2:hover .textosup2
+{
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -500%);
+    transition: 1s;
+    opacity: 1;
+}
+
+#carousel21 .texto-superpuesto:hover .textosup1 .edited1,
+#carousel21 .texto-superpuesto2:hover .textosup2 .edited1{
+    color: white;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%,-25%);
+    transition: 1s;
+    opacity: 1;
+    -webkit-text-stroke: 0.5px rosybrown;
+}
+
+#carousel21 .texto-superpuesto3:hover .textosup3{
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -500%);
+    transition: 1s;
+    opacity: 1;
+}
+#carousel21 .texto-superpuesto3:hover .textosup3 .edited1{
+    color: white;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-25%);
+    transition: 1s;
+    opacity: 1;
+    -webkit-text-stroke: 0.5px rosybrown;
+}
+
+#carouselExample3 {
+    background-image: url(/Img/Fondo\ Celeste\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+
+    justify-content: center;
+    overflow: hidden;
+    height: 550px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+#carouselModal .carousel-inner img {
+    width: auto;
+    max-width: 100%;
+    height: 500px;
+  
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Estilo opcional para el modal body */
+.modal-body {
+    padding: 20px;
+}
+
+.modal img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+#modalText {
+    margin-top: 20px;
+    max-width: 80%;
+    margin: 20px auto; /* Centra el texto */
+    text-align: justify;
+}
+
+
+.text-center .titulo-imagen {
+    font-size: 24px !important;
+}
+.text-center {
+    font-size: 14px !important;
+    
+}
+
+.modal-title{
+    text-align: center;
+    margin: 0;
+}
+
+.SobreNosotros {
+    display: flex;
+    width: 100%;
+  }
+  
+  #CarouselSobreNosotros {
+    width: 60%;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block;
+  }
+  
+  .Presentation {
+    background-image: url(/Img/Pink\ Aesthetic\ Watercolor\ Background\ Phone\ Wallpaper.png);
+    width: 30%;
+    background-size: cover;
+    text-align: justify;
+    padding-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .Thumbnail {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    display: block; /* Evita que el margen automático afecte verticalmente */
+    margin-bottom: 10px;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .tituloprincipal img {
+        height: auto;
+        width: 350px;
+    }
+
+    .navbar {
+        flex-direction:row;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }  
+
+
+
+    #carouselExample {
+        margin-bottom: 50px;
+        position: sticky;
+        margin: auto; /* Centra el carrusel en la página */
+    }
+    
+    .carousel-inner {
+        padding: 10px;
+        min-height: 300px;
+        min-width: 350px;
+    }
+    
+    .carousel-inner img {
+        height: 100%; /* Ajusta la altura al 100% del contenedor */
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+        object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    .carousel img:hover {
+        opacity: 0.7; /* Cambia la opacidad al hacer hover */
+        filter: brightness(0.7);
+        transition: 0.5s;
+    } }
