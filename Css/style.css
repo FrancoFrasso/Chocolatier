@@ -520,7 +520,7 @@ font-size: 4em
 
 
 #carouselExample2 {
-    background-image: url(/Img/Fondo\ Rosa1.jpg);
+    background-image: url(../Img/Fondo\ Rosa1.jpg);
     justify-content: center;
     overflow: hidden;
     height: 550px;
@@ -610,7 +610,7 @@ font-size: 4em
 }
 
 #carouselExample3 {
-    background-image: url(/Img/Fondo\ Celeste\ 1.jpg);
+    background-image: url(../Img/Fondo\ Celeste\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
@@ -676,7 +676,7 @@ font-size: 4em
   }
   
   .Presentation {
-    background-image: url(/Img/Pink\ Aesthetic\ Watercolor\ Background\ Phone\ Wallpaper.png);
+    background-image: url(../Img/Pink\ Aesthetic\ Watercolor\ Background\ Phone\ Wallpaper.png);
     width: 30%;
     background-size: cover;
     text-align: justify;
